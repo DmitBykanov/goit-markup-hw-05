@@ -460,7 +460,7 @@
                 class="modal-input"
                 type="text"
                 id="user-name"
-                name="name"
+                name="user-name"
                 required
               />
               <svg class="modal-icon" width="18" height="24">
@@ -498,14 +498,16 @@
               </svg>
             </div>
           </div>
-          <label class="modal-label" for="user-comment"> Comment</label>
-          <textarea
-            class="modal-textarea"
-            id="user-comment"
-            name="Comment"
-            rows="5"
-            placeholder="Text input"
-          ></textarea>
+          <div class="modal-field-comment">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-textarea"
+              id="user-comment"
+              name="user-comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </div>
           <div class="modal-checkbox-container">
             <input
               class="modal-checkbox visually-hidden"
